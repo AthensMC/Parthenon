@@ -1,2 +1,13 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% page_title "Home" %>
+<div class="card">
+  <div class="card-block">
+    <div class="jumbotron center">
+      <h2>Managing servers got easy</h2>
+      <%= link_to 'Get started today', root_path, class: 'btn btn-success' %>
+    </div>
+
+    <h1 class="card-title">Welcome to Parthenon!</h1>
+
+    <p class="card-text">We made Parthenon to make running Minecraft servers easier, and fun!</p>
+  </div>
+</div>
