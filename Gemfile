@@ -27,6 +27,9 @@ gem 'font-awesome-rails'
 # Bootstrap for design. Going with v4.
 gem 'bootstrap', '~> 4.0.0.alpha3'
 
+# Devise for User Accounts
+gem 'devise', '~> 3.5'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
