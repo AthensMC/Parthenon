@@ -9,7 +9,7 @@
       <ul class="nav navbar-nav pull-right">
         <% if user_signed_in? %>
           <li class="nav-item">
-            <%= link_to root_path, class: 'nav-link' do %>
+            <%= link_to servers_path, class: 'nav-link' do %>
                 <%= fa_icon "server", class: 'fa-fw', text: 'Servers' %>
             <% end %>
           </li>
